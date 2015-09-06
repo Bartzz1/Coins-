@@ -16,8 +16,6 @@ public class CoinPlayer {
 		this.uuid = uuid;
 		this.nick = nick;
 		this.coins = coins;
-		this.insert();
-		CoinPlayerManager.getCoinPlayers().add(this);
 	}
 	
 	public static CoinPlayer getCoinPlayer(UUID uuid) {

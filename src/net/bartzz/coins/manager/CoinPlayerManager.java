@@ -13,4 +13,16 @@ public class CoinPlayerManager {
 		return coinPlayers;
 	}
 
+	public static void addCoins(CoinPlayer player, int value) {
+		int amount = player.getCoins();
+		player.setCoins(amount + value);
+	}
+	
+	public static void removeCoins(CoinPlayer player, int value) {
+		int amount = player.getCoins();
+		if(value > amount) {
+			return;
+		}
+		player.setCoins(amount - value);
+	}
 }

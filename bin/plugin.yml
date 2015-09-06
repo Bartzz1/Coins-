@@ -7,3 +7,6 @@ commands:
   coins:
     description: Checking you account amount.
     usage: [coin, cash, money, amount]
+  cmanager:
+    description: Manager of player coins.
+    usage: [coinsmanager, cmng]
