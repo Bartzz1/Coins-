@@ -1,0 +1,9 @@
+name: Coins+
+main: net.bartzz.coins.Main
+version: 1.0
+author: bartzz aka. TypeCode28
+
+commands:
+  coins:
+    description: Checking you account amount.
+    usage: [coin, cash, money, amount]

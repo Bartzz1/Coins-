@@ -1,0 +1,12 @@
+#Welcome in my plugin! :)
+#If you like it, please, support it on spigotmc.org! :)
+#Have fun, and yo!
+
+mysql: #MySQL data
+  host:
+  port:
+  user:
+  password:
+  database:
+
+start: 200 #Money while player is starting
